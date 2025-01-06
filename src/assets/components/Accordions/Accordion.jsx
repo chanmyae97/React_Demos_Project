@@ -1,5 +1,5 @@
 import { useState } from "react";
-import "./style.css";
+// import "./style.css";
 
 const Accordion = ({ title, content }) => {
   const [isActive, setIsActive] = useState(false);

@@ -7,6 +7,7 @@ import Meals from "./assets/components/MealTracker/Meals";
 import Testimonials from "./assets/components/Testimonials/Testimonials";
 import Todo from "./assets/components/Todo/Todo";
 import { accordionData } from "../src/assets/components/Accordions/content";
+import Form from "./assets/components/Form/Form";
 
 const App = () => {
   return (
@@ -18,11 +19,12 @@ const App = () => {
       {/* <ColorSwitcher /> */}
       {/* <HiddenSearchBar /> */}
       {/* <Testimonials /> */}
-      <div className="accordion">
+      {/* <div className="accordion">
         {accordionData.map(({ title, content }) => (
           <Accordion title={title} content={content} />
         ))}
-      </div>
+      </div> */}
+      <Form />
     </div>
   );
 };
